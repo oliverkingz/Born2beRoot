@@ -242,7 +242,7 @@ Below is a list of the most important commands used in the project, organized in
 
 | **Command**                     | **Description**                                                                 |
 |---------------------------------|---------------------------------------------------------------------------------|
-| `wget -O - https://repo.litespeed.sh | sudo bash` | Adds the LiteSpeed repository.                                |
+| `wget -O - https://repo.litespeed.sh \| sudo bash` | Adds the LiteSpeed repository.                                |
 | `sudo apt install openlitespeed` | Installs LiteSpeed.                                                            |
 | `sudo /usr/local/lsws/admin/misc/admpass.sh` | Sets the LiteSpeed admin password.                              |
 | `sudo ufw allow [port]`         | Allows traffic on a specific port (e.g., `sudo ufw allow 8088`).                |
